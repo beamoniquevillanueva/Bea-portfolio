@@ -171,34 +171,6 @@
     .detail-label { color: var(--muted); letter-spacing: 0.05em; }
     .detail-value { color: var(--white); font-weight: 500; text-align: right; }
 
-    /* ── SKILLS ── */
-    #skills { background: var(--bg); }
-    .skills-list {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1px; background: var(--border);
-      border: 1px solid var(--border);
-    }
-    .skill-cell {
-      background: var(--bg); padding: 1.8rem;
-      transition: background .2s;
-    }
-    .skill-cell:hover { background: var(--bg2); }
-    .skill-cell-name {
-      font-size: 0.9rem; font-weight: 500; color: var(--white);
-      margin-bottom: 0.3rem;
-    }
-    .skill-cell-level {
-      font-size: 0.75rem; color: var(--muted);
-      letter-spacing: 0.08em; text-transform: uppercase;
-      margin-bottom: 0.8rem;
-    }
-    .skill-dots { display: flex; gap: 4px; }
-    .dot {
-      width: 6px; height: 6px; border-radius: 50%;
-      background: var(--border);
-    }
-    .dot.filled { background: var(--accent); }
-
     /* ── PROJECTS ── */
     #projects { background: var(--bg2); }
     .project-card {
